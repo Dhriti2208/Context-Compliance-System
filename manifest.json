@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Violation Detector",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["http://127.0.0.1:8001/*"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
